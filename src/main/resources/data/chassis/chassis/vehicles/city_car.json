@@ -1,0 +1,27 @@
+{
+  "category": "car",
+  "dimensions": { "length": 2.25, "width": 1.25, "height": 1.4 },
+  "seats": [
+    { "offset": [-0.3, 0.35, 0.1], "driver": true },
+    { "offset": [0.3, 0.35, 0.1] }
+  ],
+  "part_slots": [
+    { "type": "engine" },
+    { "type": "wheel", "count": 4 },
+    { "type": "brakes" },
+    { "type": "suspension" },
+    { "type": "fuel_tank" },
+    { "type": "hitch", "required": false },
+    { "type": "accessory", "count": 2, "required": false }
+  ],
+  "stats": {
+    "max_speed": 14.0,
+    "acceleration": 4.0,
+    "braking": 9.0,
+    "turn_rate": 110.0,
+    "step_height": 1.0
+  },
+  "energy": "petrol",
+  "storage_slots": 9,
+  "dashboard": "basic"
+}

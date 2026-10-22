@@ -17,4 +17,16 @@ Chunky, vanilla-feel vehicles at a compact scale — with real systems underneat
 
 See the full [ROADMAP](ROADMAP.md).
 
+## Building
+Needs Java 21. On Fedora: `sudo dnf install java-21-openjdk-devel`.
+
+```bash
+./gradlew build          # jar lands in build/libs/
+./gradlew runClient      # dev client with the mod loaded
+```
+
+## Docs
+- [Vehicle definition format](docs/VEHICLE_FORMAT.md) — how vehicles are defined in JSON
+- [Scale reference](docs/SCALE.md) — sizes and style rules for Blockbench
+
 Part of **Project Harmony**.

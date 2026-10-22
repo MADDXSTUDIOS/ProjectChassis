@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/MADDXSTUDIOS/ProjectChassis/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://github.com/MADDXSTUDIOS/ProjectChassis"
+authors="Phoenix Software / MADDX Studios"
+credits="Part of Project Harmony"
+description='''
+Chunky, vanilla-feel vehicles with real systems underneath: modular parts that wear out, servicing, workshops, fuel, logistics and buses.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
