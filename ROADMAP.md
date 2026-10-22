@@ -48,7 +48,7 @@ Part of **Project Harmony**.
 - [ ] Fuel pump (owner-set price), underground tank (needs deliveries), jerry can
 - [ ] EV charger running on FE; battery health for EVs
 
-## Phase 4 — Identity and registration
+## Phase 4 — Identity, registration and access control
 - [ ] Unique VIN per vehicle; world-level registry (single source of truth)
 - [ ] Licence plates (plate press block)
 - [ ] Paint: primary + secondary colours via dyes / spray
@@ -56,6 +56,13 @@ Part of **Project Harmony**.
 - [ ] Keys: remote lock/unlock with range, spare keys, key revocation
 - [ ] **Vehicle Database** block (admin): search by plate / VIN / keeper; type, colour, keeper (player or business), fleet number, service and VSI info, status (Active, Off-Road, Due Service, VSI Expired, Written Off, Scrapped); admin actions
 - [ ] **Vehicle Safety Inspection (VSI)**: test station block, pass/fail on tyres, brakes, lights; config toggle
+- [ ] **ANPR camera**: reads plates in a view cone via the Vehicle Database; redstone output on allow list / deny list / stolen / VSI expired / any; read log viewable at the Vehicle Database
+- [ ] Barriers and gates: rising arm barrier, sliding gate, swing gates, retractable bollards, roller shutter doors — animated, solid when shut, opened by redstone / ANPR / key card or key reader / button, auto-close with clearance sensor
+- [ ] Speed camera: clocks speed, logs offenders
+- [ ] Weighbridge: weighs vehicle + load, flags overweight vehicles
+- [ ] Traffic lights: redstone-driven with configurable sequences
+- [ ] Car park pay station: pay-on-exit with ANPR (vanilla item now, Lightman's later)
+- [ ] Toll booth
 
 ## Phase 5 — Cabin, dashboards and accessories
 - [ ] Dashboard HUD overlay when driving, tiered per vehicle (basic / mid / premium EV / bus / emergency)
